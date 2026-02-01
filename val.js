@@ -10,8 +10,12 @@ const herName = prompt("What's your name? 💖");
 if (herName) {
     document.getElementById('title').innerHTML = `Hey ${herName} 😌❤️`;
     document.getElementById('introText').innerHTML =
-        `Hey ${herName}, I made this just for you…  
-        because you make my days brighter and my smile easier 😏`;
+        `Hey ${herName}, I made this just for you…
+        Not because it’s Valentine’s Day,
+        but because you make ordinary days feel special.
+        
+        I don’t need a special day to celebrate you—
+        you make my days brighter and my smile easier 😏💖`;
 }
 
 function showLove() {
@@ -37,4 +41,5 @@ function toggleMusic() {
         music.pause();
         toggleBtn.innerHTML = '▶️ Play';
     }
+
 }
